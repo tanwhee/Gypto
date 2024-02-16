@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#div{
+    background-color:#080513;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#div #nav{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+}
+
+#nav #atags{
+    display: flex;
+    gap: 10px;
+    color: #6AA8C4;
+    text-decoration: none;
+}
+
+#nav button{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border-color: #BCF3FF ;
+}
+
+button:hover{
+    background-color: #BCF3FF;
+}
+
+#bod{
+    width: 60px;
+    height: auto;
+}
+
+#bod img{
+    width: 130px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+#bodtex #text{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    color: #fff;
+    font-size: 80px;
+    font-family:"Bebas_Neue";
+    z-index: 99;
+
+}
+
+#bodtex img{
+    position: absolute;
+    left: 62%;
+    overflow: hidden;
+}
+
+#texbod{
+    position: absolute;
+    left: 60%;
+    top: 75%;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 800;
+    font-family: "Bebas_Neue";
+}
+
+#color{
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to right, #4C7983, #7B555A);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+
+#left{
+    font-weight: 700;
+    font-size: large;
+}
+
+#right{
+    display: flex;
+    gap: 50px;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
